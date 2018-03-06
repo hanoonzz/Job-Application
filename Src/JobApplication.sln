@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplication.Web", "JobApplication\JobApplication.Web.csproj", "{DEC82382-CCD3-482C-81E0-CAA0068D61D3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplcation.Domain", "JobApplcation.Domain\JobApplcation.Domain.csproj", "{6DAE5FEF-E8C6-4F4F-98E1-85E99CBF679E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplcation.Infrastructre", "JobApplcation.Infrastructre\JobApplcation.Infrastructre.csproj", "{BCDE25B0-937A-4B1D-93F5-AF08BC36BE0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobApplication.Web", "JobApplication.Web\JobApplication.Web.csproj", "{DEC82382-CCD3-482C-81E0-CAA0068D61D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DEC82382-CCD3-482C-81E0-CAA0068D61D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DEC82382-CCD3-482C-81E0-CAA0068D61D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DEC82382-CCD3-482C-81E0-CAA0068D61D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DEC82382-CCD3-482C-81E0-CAA0068D61D3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6DAE5FEF-E8C6-4F4F-98E1-85E99CBF679E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6DAE5FEF-E8C6-4F4F-98E1-85E99CBF679E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DAE5FEF-E8C6-4F4F-98E1-85E99CBF679E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{BCDE25B0-937A-4B1D-93F5-AF08BC36BE0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCDE25B0-937A-4B1D-93F5-AF08BC36BE0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCDE25B0-937A-4B1D-93F5-AF08BC36BE0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEC82382-CCD3-482C-81E0-CAA0068D61D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC82382-CCD3-482C-81E0-CAA0068D61D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC82382-CCD3-482C-81E0-CAA0068D61D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC82382-CCD3-482C-81E0-CAA0068D61D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
